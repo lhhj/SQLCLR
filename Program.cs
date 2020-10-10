@@ -1,4 +1,8 @@
 ﻿using System;
+using Amazon.CDK;
+using Amazon.CDK.S3;
+
+
 
 namespace SQLCLR
 {
@@ -7,6 +11,7 @@ namespace SQLCLR
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            
         }
     }
 }

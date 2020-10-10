@@ -5,4 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Amazon.CDK" Version="1.67.0" />
+    <PackageReference Include="Amazon.CDK.AWS.S3" Version="1.67.0" />
+  </ItemGroup>
+
 </Project>
